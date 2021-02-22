@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Password']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //div[@data-instituteid='5']] found]]>
+    </line>
+    <line>
+      <![CDATA[Elemntlocated]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='menuMaxSize'])[5]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //button[@class='btn btn-success']] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='txtDisplayName']] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='multiselect-selected-text'])[1]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[1]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[6]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[7]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='ReportScheduleStartDate']] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='SaveReportScheduleBtn']] is clickable]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46952" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:13:10Z">
+    <groups>
+    </groups>
+    <test name="Test on chrome" duration-ms="11" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:12:23Z">
+      <class name="regressiontestscript.ValidLoginlogout_session2">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@29f69090]" name="setUP" is-config="true" duration-ms="301" started-at="2021-02-22T12:42:23Z" finished-at="2021-02-22T12:42:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@29f69090]" name="Teardown" is-config="true" duration-ms="294" started-at="2021-02-22T12:43:10Z" finished-at="2021-02-22T12:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- regressiontestscript.ValidLoginlogout_session2 -->
+    </test> <!-- Test on chrome -->
+    <test name="Test on firefox" duration-ms="46952" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:13:10Z">
+      <class name="regressiontestscript.Highlevel_regression">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="openapp" is-config="true" duration-ms="7524" started-at="2021-02-22T12:42:23Z" finished-at="2021-02-22T12:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="validloginlogout_session1" duration-ms="38624" started-at="2021-02-22T12:42:30Z" finished-at="2021-02-22T12:43:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Password']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //div[@data-instituteid='5']] found]]>
+            </line>
+            <line>
+              <![CDATA[Elemntlocated]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='menuMaxSize'])[5]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //button[@class='btn btn-success']] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='txtDisplayName']] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='multiselect-selected-text'])[1]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[1]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[6]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[7]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='ReportScheduleStartDate']] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='SaveReportScheduleBtn']] is clickable]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validloginlogout_session1 -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="closeapp" is-config="true" duration-ms="792" started-at="2021-02-22T12:43:09Z" finished-at="2021-02-22T12:43:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validloginlogout_session1 status=SUCCESS method=Highlevel_regression.validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4] output=[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- regressiontestscript.Highlevel_regression -->
+    </test> <!-- Test on firefox -->
+  </suite> <!-- Default suite -->
+</testng-results>

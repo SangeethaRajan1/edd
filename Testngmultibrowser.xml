@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="tests">
+  <test  name="Test on firefox">
+  <parameter name="browsername" value="firefox" >
+  </parameter>
+    <classes>
+      <class name="regressiontestscript.Highlevel_regression"/>
+    </classes>
+  </test> 
+  <test  name="Test on chrome">
+  <parameter name="browsername" value="chrome" >
+  </parameter>
+    <classes>
+      <class name="regressiontestscript.ValidLoginlogout_session2"/>
+    </classes>
+  </test> 
+</suite> 

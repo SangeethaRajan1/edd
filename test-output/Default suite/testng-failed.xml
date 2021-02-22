@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="tests">
+  <parameter name="browsername" value="chrome"/>
+  <test name="Test on firefox(failed)" parallel="tests">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="regressiontestscript.Highlevel_regression">
+        <methods>
+          <include name="validloginlogout_session1"/>
+          <include name="closeapp"/>
+          <include name="openapp"/>
+        </methods>
+      </class> <!-- regressiontestscript.Highlevel_regression -->
+      <class name="regressiontestscript.ValidLoginlogout_session2">
+        <methods>
+          <include name="setUP"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- regressiontestscript.ValidLoginlogout_session2 -->
+    </classes>
+  </test> <!-- Test on firefox(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
