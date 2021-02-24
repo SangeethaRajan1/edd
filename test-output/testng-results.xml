@@ -1,64 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Email']] found]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Password']] found]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Password']] found]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //div[@data-instituteid='5']] found]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //div[@data-instituteid='5']] found]]>
     </line>
     <line>
-      <![CDATA[Elemntlocated]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='addNewMenu']] is clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='menuMaxSize'])[5]] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@class='btn btn-success preventTagClose']] is clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //button[@class='btn btn-success']] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='col-sm-2 appMenuItemClass'])[last()]] is clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='txtDisplayName']] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //select[@id='menus']] found]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='multiselect-selected-text'])[1]] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[1]] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Layer Menu']] is clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[6]] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] is not clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[7]] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='ReportScheduleStartDate']] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable]]>
     </line>
     <line>
-      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='SaveReportScheduleBtn']] is clickable]]>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Data Description']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] not found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[4]] is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='savePageURLBtn']] is not clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Menu Rearrangement']] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //h2[.='Menu Rearrangement']] found]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[1]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[2]] is clickable]]>
+    </line>
+    <line>
+      <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='save']] is clickable]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46952" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:13:10Z">
+  <suite name="Default suite" duration-ms="218378" started-at="2021-02-24T11:29:55Z" finished-at="2021-02-24T11:33:34Z">
     <groups>
     </groups>
-    <test name="Test on chrome" duration-ms="11" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:12:23Z">
+    <test name="Test on chrome" duration-ms="11" started-at="2021-02-24T11:29:55Z" finished-at="2021-02-24T11:29:55Z">
       <class name="regressiontestscript.ValidLoginlogout_session2">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@29f69090]" name="setUP" is-config="true" duration-ms="301" started-at="2021-02-22T12:42:23Z" finished-at="2021-02-22T12:42:23Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@4c203ea1]" name="setUP" is-config="true" duration-ms="367" started-at="2021-02-24T16:59:55Z" finished-at="2021-02-24T16:59:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="Teardown()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@29f69090]" name="Teardown" is-config="true" duration-ms="294" started-at="2021-02-22T12:43:10Z" finished-at="2021-02-22T12:43:10Z">
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:regressiontestscript.ValidLoginlogout_session2@4c203ea1]" name="Teardown" is-config="true" duration-ms="427" started-at="2021-02-24T17:03:34Z" finished-at="2021-02-24T17:03:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- regressiontestscript.ValidLoginlogout_session2 -->
     </test> <!-- Test on chrome -->
-    <test name="Test on firefox" duration-ms="46952" started-at="2021-02-22T07:12:23Z" finished-at="2021-02-22T07:13:10Z">
+    <test name="Test on firefox" duration-ms="218378" started-at="2021-02-24T11:29:55Z" finished-at="2021-02-24T11:33:34Z">
       <class name="regressiontestscript.Highlevel_regression">
-        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="openapp" is-config="true" duration-ms="7524" started-at="2021-02-22T12:42:23Z" finished-at="2021-02-22T12:42:30Z">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:regressiontestscript.Highlevel_regression@4ec6a292]" name="openapp" is-config="true" duration-ms="17718" started-at="2021-02-24T16:59:55Z" finished-at="2021-02-24T17:00:13Z">
           <params>
             <param index="0">
               <value>
@@ -69,54 +105,145 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method status="PASS" signature="validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="validloginlogout_session1" duration-ms="38624" started-at="2021-02-22T12:42:30Z" finished-at="2021-02-22T12:43:09Z">
+        <test-method status="FAIL" signature="validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@4ec6a292]" name="validloginlogout_session1" duration-ms="199579" started-at="2021-02-24T17:00:13Z" finished-at="2021-02-24T17:03:32Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NTLT09', ip: '192.168.43.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11268, moz:profile: C:\Users\Neel-Tech_012018_O..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d75acb-a2a9-4228-adb8-cb074a930570]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: rect is undefined
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NTLT09', ip: '192.168.43.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11268, moz:profile: C:\Users\Neel-Tech_012018_O..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d75acb-a2a9-4228-adb8-cb074a930570
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at GenericMethods.GMaction.Movetoelement(GMaction.java:11)
+	at pom_iAdmin.Social_media_page.social_media(Social_media_page.java:40)
+	at regressiontestscript.Highlevel_regression.validloginlogout_session1(Highlevel_regression.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Email']] found]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Password']] found]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Password']] found]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //div[@data-instituteid='5']] found]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //div[@data-instituteid='5']] found]]>
             </line>
             <line>
-              <![CDATA[Elemntlocated]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='addNewMenu']] is clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='menuMaxSize'])[5]] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@class='btn btn-success preventTagClose']] is clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //button[@class='btn btn-success']] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='col-sm-2 appMenuItemClass'])[last()]] is clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='txtDisplayName']] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //select[@id='menus']] found]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//span[@class='multiselect-selected-text'])[1]] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[1]] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Layer Menu']] is clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[6]] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] is not clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: (//label[@class='radio-inline'])[7]] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='ReportScheduleStartDate']] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable]]>
             </line>
             <line>
-              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='SaveReportScheduleBtn']] is clickable]]>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Data Description']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] not found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[4]] is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='savePageURLBtn']] is not clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Menu Rearrangement']] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //h2[.='Menu Rearrangement']] found]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[1]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[2]] is clickable]]>
+            </line>
+            <line>
+              <![CDATA[[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='save']] is clickable]]>
             </line>
           </reporter-output>
         </test-method> <!-- validloginlogout_session1 -->
-        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4]" name="closeapp" is-config="true" duration-ms="792" started-at="2021-02-22T12:43:09Z" finished-at="2021-02-22T12:43:10Z">
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:regressiontestscript.Highlevel_regression@4ec6a292]" name="closeapp" is-config="true" duration-ms="1064" started-at="2021-02-24T17:03:32Z" finished-at="2021-02-24T17:03:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validloginlogout_session1 status=SUCCESS method=Highlevel_regression.validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@226a82c4] output=[[FirefoxDriver: firefox on WINDOWS (8422620b-d47a-4932-90a7-469eaf7726a0)] -> xpath: //input[@id='Email']] found]]]>
+                <![CDATA[[TestResult name=validloginlogout_session1 status=FAILURE method=Highlevel_regression.validloginlogout_session1()[pri:0, instance:regressiontestscript.Highlevel_regression@4ec6a292] output=[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Email']] found]]]>
               </value>
             </param>
           </params>

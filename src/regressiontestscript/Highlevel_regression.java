@@ -48,97 +48,97 @@ public class Highlevel_regression extends Generictest {
 		lp.Instituteselection();
 		test.pass("Selected the institute");
 
-		/*
-		 * App_config config = new App_config(driver); config.Clickappmmenu();
-		 * config.max_limit_reached();
-		 * test.pass("Successfully added the new menu.");
-		 * 
-		 * Submenu_config submenu = new Submenu_config(driver);
-		 * submenu.Addsubmenu();
-		 * test.pass("Successfully added the action for the app menu.");
-		 * 
-		 * Layer_menu Layermenu = new Layer_menu(driver);
-		 * Layermenu.Extend_app_config();
-		 * test.pass("Expanded the app config tab");
-		 * Layermenu.Layer_menu_page();
-		 * test.pass("Navigated to the layer menu page");
-		 * Layermenu.app_menu_dropdown();
-		 * test.pass("Selected the second element from the app menu drop down");
-		 * Layermenu.sub_menu_dropdown();
-		 * test.pass("Selected the second element from the sub menu drop down");
-		 * Layermenu.layer_menu_dropdown();
-		 * test.pass("Selected the notification as action from layer menu drop down"
-		 * ); Layermenu.save_layer_menu();
-		 * test.pass("Saved the layer menu action");
-		 * 
-		 * Datadescription data_descr = new Datadescription(driver);
-		 * data_descr.Extend_app_config();
-		 * test.pass("Expanded the app config tab");
-		 * data_descr.Datadescription_page();
-		 * test.pass("Navigated to the data description menu page");
-		 * data_descr.app_menu_dropdown();
-		 * test.pass("Selected the first element from the app menu drop down");
-		 * data_descr.sub_menu_dropdown();
-		 * test.pass("Selected the first element from the sub menu drop down");
-		 * data_descr.layer_menu_dropdown();
-		 * test.pass("Selected the first element from the layer menu drop down"
-		 * ); data_descr.Datadescrpn_menu_dropdown();
-		 * test.pass("Selected the notification as action from layer menu drop down"
-		 * ); data_descr.save_datadescr_menu();
-		 * test.pass("Saved the layer menu action");
-		 * 
-		 * 
-		 * Menu_rearrangement menu_rearrange = new Menu_rearrangement(driver);
-		 * menu_rearrange.app_config();
-		 * test.pass("mouse hovered the app config tab");
-		 * menu_rearrange.menurearrangement();
-		 * test.pass("clicked on  menu re-arrangement option");
-		 * menu_rearrange.page_confirmation(); test.pass("Confirmed the page");
-		 * menu_rearrange.drag_and_drop();
-		 * test.pass("Dropped the element to the specified location");
-		 * menu_rearrange.Save_menu_rearrangemnet();
-		 * test.pass("Saved the dragged menu");
-		 * 
-		 * Social_media_page socialmedia= new Social_media_page(driver);
-		 * socialmedia.app_config_tab();
-		 * test.pass("mouse hovered the app config tab");
-		 * socialmedia.social_media();
-		 * test.pass("clicked on social media option");
-		 * socialmedia.social_media_fb_selection();
-		 * test.pass("Social media has been saved with fb option");
-		 * 
-		 * Media_Library medialib = new Media_Library(driver);
-		 * medialib.Extend_app_config();
-		 * test.pass("mouse hovered the app config tab");
-		 * medialib.medialibrary_page();
-		 * test.pass("clicked on media library option"); medialib.upload_logo();
-		 * test.pass("uploaded the logo");
-		 * 
-		 * Offlinedata offline = new Offlinedata(driver);
-		 * offline.Extend_app_config();
-		 * test.pass("mouse hovered the app config tab");
-		 * offline.offline_page(); test.pass("navigated to offline page");
-		 * offline.Add_New_button_click();
-		 * test.pass("clicked on new button to add the offline data");
-		 * 
-		 * Banner banner = new Banner(driver); banner.Extend_app_config();
-		 * test.pass("mouse hovered the app config tab"); banner.banner_page();
-		 * test.pass("navigated to banner page"); banner.Add_banner();
-		 * test.pass("Added banner successfully");
-		 * 
-		 * App_theme apptheme = new App_theme(driver);
-		 * apptheme.Extend_app_config();
-		 * test.pass("mouse hovered the app config tab");
-		 * apptheme.apptheme_page(); test.pass("navigated to app theme page");
-		 * apptheme.select_theme(); test.pass("save the BG color theme");
-		 * 
-		 * AdhocForm adhoc = new AdhocForm(driver); adhoc.Expand_adhoc();
-		 * test.pass("mouse hovered to the adhoc tab"); adhoc.adhoc_page();
-		 * test.pass("selected adhoc module "); adhoc.status();
-		 * //adhoc.Record_details(); adhoc.Add_adhoc();
-		 * test.pass("Added a new adhoc form ");
-		 * adhoc.add_fields_to_adhocform();
-		 * test.pass("Added fields to the adhoc form ");
+		
+		  App_config config = new App_config(driver); config.Clickappmmenu();
+		  config.max_limit_reached();
+		  test.pass("Successfully added the new menu.");
+		  
+		  Submenu_config submenu = new Submenu_config(driver);
+		  submenu.Addsubmenu();
+		  test.pass("Successfully added the action for the app menu.");
+		  
+		  Layer_menu Layermenu = new Layer_menu(driver);
+		  Layermenu.Extend_app_config();
+		  test.pass("Expanded the app config tab");
+		  Layermenu.Layer_menu_page();
+		  test.pass("Navigated to the layer menu page");
+		  Layermenu.app_menu_dropdown();
+		  test.pass("Selected the second element from the app menu drop down");
+		  Layermenu.sub_menu_dropdown();
+		  test.pass("Selected the second element from the sub menu drop down");
+		  Layermenu.layer_menu_dropdown();
+		  test.pass("Selected the notification as action from layer menu drop down");
+		  Layermenu.save_layer_menu();
+		  test.pass("Saved the layer menu action");
+		  
+		  Datadescription data_descr = new Datadescription(driver);
+		  data_descr.Extend_app_config();
+		  test.pass("Expanded the app config tab");
+		  data_descr.Datadescription_page();
+		  test.pass("Navigated to the data description menu page");
+		  data_descr.app_menu_dropdown();
+		  test.pass("Selected the first element from the app menu drop down");
+		 data_descr.sub_menu_dropdown();
+		  test.pass("Selected the first element from the sub menu drop down");
+		  data_descr.layer_menu_dropdown();
+		  test.pass("Selected the first element from the layer menu drop down"
+		  ); data_descr.Datadescrpn_menu_dropdown();
+		  test.pass("Selected the notification as action from layer menu drop down"
+		  ); data_descr.save_datadescr_menu();
+		  test.pass("Saved the layer menu action");
+		  
+		  
+		  Menu_rearrangement menu_rearrange = new Menu_rearrangement(driver);
+		  menu_rearrange.app_config();
+		  test.pass("mouse hovered the app config tab");
+		  menu_rearrange.menurearrangement();
+		  test.pass("clicked on  menu re-arrangement option");
+		  menu_rearrange.page_confirmation(); test.pass("Confirmed the page");
+		  menu_rearrange.drag_and_drop();
+		  test.pass("Dropped the element to the specified location");
+		  menu_rearrange.Save_menu_rearrangemnet();
+		  test.pass("Saved the dragged menu");
+		  
+		  Social_media_page socialmedia= new Social_media_page(driver);
+		  socialmedia.app_config_tab();
+		  test.pass("mouse hovered the app config tab");
+		  socialmedia.social_media();
+		  test.pass("clicked on social media option");
+		  socialmedia.social_media_fb_selection();
+		  test.pass("Social media has been saved with fb option");
+		  
+		  Media_Library medialib = new Media_Library(driver);
+		  medialib.Extend_app_config();
+		  test.pass("mouse hovered the app config tab");
+		  medialib.medialibrary_page();
+		  test.pass("clicked on media library option"); medialib.upload_logo();
+		  test.pass("uploaded the logo");
+		  
+		  Offlinedata offline = new Offlinedata(driver);
+		  offline.Extend_app_config();
+		  test.pass("mouse hovered the app config tab");
+		  offline.offline_page(); test.pass("navigated to offline page");
+		  offline.Add_New_button_click();
+		  test.pass("clicked on new button to add the offline data");
+		  
+		  Banner banner = new Banner(driver); banner.Extend_app_config();
+		  test.pass("mouse hovered the app config tab"); banner.banner_page();
+		  test.pass("navigated to banner page"); banner.Add_banner();
+		  test.pass("Added banner successfully");
+		  
+		  App_theme apptheme = new App_theme(driver);
+		  apptheme.Extend_app_config();
+		  test.pass("mouse hovered the app config tab");
+		  apptheme.apptheme_page(); test.pass("navigated to app theme page");
+		  apptheme.select_theme(); test.pass("save the BG color theme");
+		  
+		  AdhocForm adhoc = new AdhocForm(driver); adhoc.Expand_adhoc();
+		  test.pass("mouse hovered to the adhoc tab"); adhoc.adhoc_page();
+		  test.pass("selected adhoc module "); adhoc.status();
+		  //adhoc.Record_details(); adhoc.Add_adhoc();
+		  test.pass("Added a new adhoc form ");
+		  adhoc.add_fields_to_adhocform();
+		  test.pass("Added fields to the adhoc form ");
 		 
 		
 		Adhoc_copy_form copy_adhoc = new Adhoc_copy_form(driver);
@@ -160,7 +160,7 @@ public class Highlevel_regression extends Generictest {
 		hyperlink.Hyperlink_adhoc();
 		hyperlink.Add_user_record();
 		hyperlink.Response_add_userrecord();
-		*/
+		
 		
 		Adhoc_scheduler scheduler = new Adhoc_scheduler(driver);
 		scheduler.Expand_adhoc();
