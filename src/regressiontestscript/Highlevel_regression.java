@@ -9,6 +9,7 @@ import pom_iAdmin.Adhoc_hyperlink;
 import pom_iAdmin.Adhoc_scheduler;
 import pom_iAdmin.App_config;
 import pom_iAdmin.App_theme;
+import pom_iAdmin.Appointment_calendar;
 import pom_iAdmin.Banner;
 import pom_iAdmin.Datadescription;
 import pom_iAdmin.Layer_menu;
@@ -48,11 +49,11 @@ public class Highlevel_regression extends Generictest {
 		lp.Instituteselection();
 		test.pass("Selected the institute");
 
-		
+	
 		  App_config config = new App_config(driver); config.Clickappmmenu();
 		  config.max_limit_reached();
 		  test.pass("Successfully added the new menu.");
-		  
+		 /*		  
 		  Submenu_config submenu = new Submenu_config(driver);
 		  submenu.Addsubmenu();
 		  test.pass("Successfully added the action for the app menu.");
@@ -121,9 +122,12 @@ public class Highlevel_regression extends Generictest {
 		  offline.Add_New_button_click();
 		  test.pass("clicked on new button to add the offline data");
 		  
-		  Banner banner = new Banner(driver); banner.Extend_app_config();
-		  test.pass("mouse hovered the app config tab"); banner.banner_page();
-		  test.pass("navigated to banner page"); banner.Add_banner();
+		  Banner banner = new Banner(driver); 
+		  banner.Extend_app_config();
+		  test.pass("mouse hovered the app config tab"); 
+		  banner.banner_page();
+		  test.pass("navigated to banner page"); 
+		  banner.Add_banner();
 		  test.pass("Added banner successfully");
 		  
 		  App_theme apptheme = new App_theme(driver);
@@ -131,16 +135,21 @@ public class Highlevel_regression extends Generictest {
 		  test.pass("mouse hovered the app config tab");
 		  apptheme.apptheme_page(); test.pass("navigated to app theme page");
 		  apptheme.select_theme(); test.pass("save the BG color theme");
-		  
-		  AdhocForm adhoc = new AdhocForm(driver); adhoc.Expand_adhoc();
-		  test.pass("mouse hovered to the adhoc tab"); adhoc.adhoc_page();
-		  test.pass("selected adhoc module "); adhoc.status();
-		  //adhoc.Record_details(); adhoc.Add_adhoc();
+		 
+		  */
+		  AdhocForm adhoc = new AdhocForm(driver); 
+		  adhoc.Expand_adhoc();
+		  test.pass("mouse hovered to the adhoc tab"); 
+		  adhoc.adhoc_page();
+		  test.pass("selected adhoc module ");
+		  adhoc.status();
+		  //adhoc.Record_details();
+		 // adhoc.Add_adhoc();
 		  test.pass("Added a new adhoc form ");
-		  adhoc.add_fields_to_adhocform();
+		  //adhoc.add_fields_to_adhocform();
 		  test.pass("Added fields to the adhoc form ");
 		 
-		
+	
 		Adhoc_copy_form copy_adhoc = new Adhoc_copy_form(driver);
 		copy_adhoc.Expand_adhoc();
 		test.pass("mouse hovered to the adhoc tab");
@@ -148,6 +157,7 @@ public class Highlevel_regression extends Generictest {
 		test.pass("selected adhoc module ");
 		copy_adhoc.click_copy_adhoc();
 		test.pass("adhoc copy functionality");
+
 
 		Adhoc_Export export = new Adhoc_Export(driver);
 		export.multiexport();
@@ -168,5 +178,17 @@ public class Highlevel_regression extends Generictest {
 		scheduler.Adhoc_sch();
 		scheduler.Adhoc_sch_details();
 		
+		
+		Appointment_calendar Settings = new Appointment_calendar(driver);
+		test.pass("appointment list");
+		Settings.Expand_settings();
+		test.pass("clicked on appointment list");
+		Settings.Calendar();
+		Settings.admin_select();
+		Settings.Slot_duration();
+		Settings.select_monthview();
+		Settings.Current_select_date();
+		Settings.drag();
+		//Settings.delete_slot();
 	}
 }

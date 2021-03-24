@@ -127,29 +127,34 @@
                   <a name="validloginlogout_session1">
                   </a> <!-- validloginlogout_session1 -->
                   <span class="method-name">validloginlogout_session1</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: TypeError: rect is undefined
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;addNewMenu&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;NTLT09&apos;, ip: &apos;192.168.43.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
+System info: host: &apos;NTLT09&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11268, moz:profile: C:\Users\Neel-Tech_012018_O..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 88d75acb-a2a9-4228-adb8-cb074a930570
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16112, moz:profile: C:\Users\Neel-Tech_012018_O..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e80a32b-abb1-4db8-90f7-60c5346de425
+*** Element info: {Using=xpath, value=//input[@id=&apos;addNewMenu&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at GenericMethods.GMaction.Movetoelement(GMaction.java:11)
-	at pom_iAdmin.Social_media_page.social_media(Social_media_page.java:40)
-	at regressiontestscript.Highlevel_regression.validloginlogout_session1(Highlevel_regression.java:105)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at pom_iAdmin.App_config.Clickappmmenu(App_config.java:52)
+	at regressiontestscript.Highlevel_regression.validloginlogout_session1(Highlevel_regression.java:53)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-... Removed 20 stack frames
+... Removed 19 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -221,12 +226,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validloginlogout_session1')
 data.setCell(0, 2, 'regressiontestscript.Highlevel_regression')
-data.setCell(0, 3, 199579);
+data.setCell(0, 3, 40065);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -240,31 +245,10 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">validloginlogout_session1</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Email']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='Password']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //div[@data-instituteid='5']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='addNewMenu']] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@class='btn btn-success preventTagClose']] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='col-sm-2 appMenuItemClass'])[last()]] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //select[@id='menus']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Layer Menu']] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Data Description']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[1]] not found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[2]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[3]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//select[@class='form-control'])[4]] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='savePageURLBtn']] is not clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //span[.='App Config']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //a[.='Menu Rearrangement']] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //h2[.='Menu Rearrangement']] found</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[1]] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: (//div[@class='Active'])[2]] is clickable</span>
-                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (88d75acb-a2a9-4228-adb8-cb074a930570)] -> xpath: //input[@id='save']] is clickable</span>
+                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (6e80a32b-abb1-4db8-90f7-60c5346de425)] -> xpath: //input[@id='Email']] found</span>
+                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (6e80a32b-abb1-4db8-90f7-60c5346de425)] -> xpath: //input[@id='Password']] found</span>
+                <span class="reporter-method-output">[[FirefoxDriver: firefox on WINDOWS (6e80a32b-abb1-4db8-90f7-60c5346de425)] -> xpath: //div[@data-instituteid='5']] found</span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='addNewMenu']' is not clickable</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,24 +276,24 @@ return data;
               <div class="chronological-class-name">regressiontestscript.Highlevel_regression</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">openapp(firefox)</span>
-                <span class="method-start">385 ms</span>
+                <span class="method-start">280 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validloginlogout_session1</span>
-                <span class="method-start">18103 ms</span>
+                <span class="method-start">14713 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeapp([TestResult name=validloginlogout_session1 status=FAILURE method=Highlevel_regression.validloginlogo...)</span>
-                <span class="method-start">217688 ms</span>
+                <span class="method-start">54782 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">regressiontestscript.ValidLoginlogout_session2</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">218762 ms</span>
+                <span class="method-start">55081 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

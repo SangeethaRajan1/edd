@@ -101,10 +101,13 @@ public class Datadescription extends Base_page {
 	
 	public void Datadescrpn_menu_dropdown() throws InterruptedException
 	{
-		elementtobeclickable(5,Select_dadadwscr_menu_drpdown);
+		
 		SelectGM drp2_selection = new SelectGM();// dropdown to select the sub
 													// menu
-		Thread.sleep(3000);
+		Thread.sleep(4000);
+		
+		elementtobeclickable(30,Select_dadadwscr_menu_drpdown);
+		Thread.sleep(4000);
 		drp2_selection.Selectbyvalue(Select_dadadwscr_menu_drpdown, "Notification");// select the
 																// first
 																// element

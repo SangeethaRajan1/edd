@@ -41,7 +41,8 @@ public class Adhoc_hyperlink extends Base_page {
 		super(driver);
 	}
 
-	public void Hyperlink_adhoc() { // click on the hyper link of the adhoc form
+	public void Hyperlink_adhoc() throws InterruptedException { // click on the hyper link of the adhoc form
+		Thread.sleep(2000);
 		elementtobeclickable(15, adhoc_hyperlink);
 		adhoc_hyperlink.click();
 	}

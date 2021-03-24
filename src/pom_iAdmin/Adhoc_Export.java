@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 import GenericMethods.Base_page;
 
@@ -56,17 +57,20 @@ public class Adhoc_Export extends Base_page {
 		adhocexport.click();
 	}
 
-	public void select_chkbox2export() {
+	public void select_chkbox2export() throws InterruptedException {
 		AdhocForm adhocclass = new AdhocForm(driver);
 		if (adhocclass.isElementDisplayed(chkbox2export)) {// if warning message
 															// to select the
 															// checkbox
 			elementtobeclickable(15, close); // close the warning message
+			Thread.sleep(2000);
 			close.click();
+			Reporter.log("closed the pop up after clicking on export button");
 		}
 	}
 
-	public void select_record_entry() {
+	public void select_record_entry() throws InterruptedException {
+		Thread.sleep(3000);
 		Select select_pagination = new Select(select_entry_count);
 		select_pagination.selectByVisibleText("100");// select the pagination as
 														// 100 to get all the

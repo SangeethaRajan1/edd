@@ -5,8 +5,13 @@ import java.io.IOException;
 import org.testng.annotations.Test;
 
 import pom_iAdmin.AdhocForm;
+import pom_iAdmin.Adhoc_Export;
+import pom_iAdmin.Adhoc_copy_form;
+import pom_iAdmin.Adhoc_hyperlink;
+import pom_iAdmin.Adhoc_scheduler;
 import pom_iAdmin.App_config;
 import pom_iAdmin.App_theme;
+import pom_iAdmin.Appointment_calendar;
 import pom_iAdmin.Banner;
 import pom_iAdmin.Datadescription;
 import pom_iAdmin.Layer_menu;
@@ -151,6 +156,42 @@ public class ValidLoginlogout_session2 extends Generictest {
 		test.pass("Added a new adhoc form ");
 		adhoc.add_fields_to_adhocform();
 		test.pass("Added fields to the adhoc form ");
+		
+		Adhoc_copy_form copy_adhoc = new Adhoc_copy_form(driver);
+		copy_adhoc.Expand_adhoc();
+		test.pass("mouse hovered to the adhoc tab");
+		copy_adhoc.adhoc_page();
+		test.pass("selected adhoc module ");
+		copy_adhoc.click_copy_adhoc();
+		test.pass("adhoc copy functionality");
+
+		Adhoc_Export export = new Adhoc_Export(driver);
+		export.multiexport();
+		export.select_chkbox2export();
+		export.select_record_entry();
+		export.select_record_chk();
+		export.export_config();
+		
+		Adhoc_hyperlink hyperlink = new Adhoc_hyperlink(driver);
+		hyperlink.Hyperlink_adhoc();
+		hyperlink.Add_user_record();
+		hyperlink.Response_add_userrecord();
+		
+		
+		Adhoc_scheduler scheduler = new Adhoc_scheduler(driver);
+		scheduler.Expand_adhoc();
+		scheduler.sch_page();
+		scheduler.Adhoc_sch();
+		scheduler.Adhoc_sch_details();
+		
+		Appointment_calendar Settings = new Appointment_calendar(driver);
+		test.pass("appointment list");
+		Settings.Expand_settings();
+		test.pass("clicked on appointment list");
+		Settings.Calendar();
+		Settings.admin_select();
+		Settings.Slot_duration();
+		Settings.select_monthview();
 	}
 
 }

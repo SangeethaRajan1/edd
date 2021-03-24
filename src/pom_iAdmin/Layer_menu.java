@@ -116,11 +116,13 @@ public class Layer_menu extends Base_page {
 	}
 
 	public void layer_menu_dropdown() throws InterruptedException {
-		elementtobeclickable(15, Select_layermenu_drpdown);
+		
 		SelectGM drp3_selection = new SelectGM();// dropdown to select the layer
 													// menu
 		/*drp3_selection.SelectbyvisibleText(Select_layermenu_drpdown,
 				"Notification");// select the notification as action */
+		Thread.sleep(4000);
+		elementtobeclickable(30, Select_layermenu_drpdown);
 		Thread.sleep(4000);
 		drp3_selection.Selectbyvalue(Select_layermenu_drpdown, "Notification");
 	}

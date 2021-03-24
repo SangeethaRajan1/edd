@@ -29,6 +29,8 @@ public class Submenu_config extends Base_page {
 	
 
 		Thread.sleep(3000);
+		elementtobeclickable(30,drp_submenu );
+		Thread.sleep(3000);
 		drp_appmenu.SelectbyvisibleText(drp_submenu, "Notification");
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='savePageURLBtn']"))
